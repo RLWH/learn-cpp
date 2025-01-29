@@ -22,9 +22,14 @@
 #include <iostream>
 
 // Using macro to define the constant array size
-#define AGE_LENGTH 4
+// #define AGE_LENGTH 4
 
 int main() {
+
+    // Define the array size here
+    // Note that we use the type size_t
+    const size_t AGE_LENGTH = 4;
+
     // An array of integers that store the age of 4 people
     int age[AGE_LENGTH];
 
