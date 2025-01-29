@@ -11,3 +11,5 @@ All C++ files are individual files with their own `main()` entrypoint. You can c
 - [Preprocessor Directives](preprocessor_directives.cpp)
 - [Constants](constants.cpp)
 - [Arrays](arrays.cpp)
+- [Strings](strings.cpp)
+- [Type Casting](type_casting.cpp)
