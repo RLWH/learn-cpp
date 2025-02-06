@@ -4,11 +4,14 @@
 - [Header and Implementation](./cow_demo/)
 - [Pointers](./pointers.cpp)
 - [References](./references.cpp)
+- [Vectors](./vectors.cpp)
 
 # More on Pointers
 ### What are pointers?
 Pointers are variables that hold memory addresses.
+
 ![What are pointers](./images/C++-Pointers.png)
+
 For example, we have a slice of memory with addresses from 100 - 128, as shown in the image. 
 - When declaring a variable, a slice of memory space is reserved in the memory. e.g. Slice 108 - 112 is reserved for `int a`. The value (37) will be stored in this slice of memory. 
 - A pointer is a variable that can store the address. e.g. We can declare a pointer `int *ptr_a` with the value `&a`. The `&` operator returns the address of `a`. i.e., this stores the address of `a` into `ptr_a`. 

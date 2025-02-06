@@ -37,3 +37,38 @@ int main(){
     return (0);
 }
 ```
+
+### Calculation of GPA
+To calculate GPA, we will use the formula 
+$$\text{GPA} = \frac{\text{Total Points}}{\text{Total Credits}}$$
+
+### Grade to point mapping
+|Letter Grade|Points|
+|------------|------|
+|A|4.0|
+|B|3.0|
+|C|2.0|
+|D|1.0|
+|F|0.0|
+
+Here is an example: 
+|Course|Credits|Grade|
+|--|--|--|
+|Algebra|5|B (3)|
+|Physics|4|A (4)|
+|English|3|C (2)|
+
+The calculation of GPA will be
+$$
+\begin{aligned}
+\text{GPA}&=\frac{(5 \times 3) + (4 \times 4) + (3 \times 2)}{5 + 4 + 3} \\
+&=\frac{37}{12} \\
+&= 3.08
+\end{aligned}
+$$
+
+## Expected result
+```{}
+The GPA for George P. Burdell is 3.08333
+The GPA for Nancy Rhodes is 3.69231
+```

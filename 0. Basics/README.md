@@ -52,7 +52,7 @@ To build all the relevant files together, we can use the build task in VSCode. H
 
 This is the following task configuration in `task.json` to build the whole folder. 
 
-```{json}
+```json
 {
     "type": "cppbuild",
     "label": "C/C++: g++ build active file folder",
